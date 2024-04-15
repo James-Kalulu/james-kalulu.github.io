@@ -1,0 +1,33 @@
+/* Main content styles */
+main {
+    padding-left: 0px;
+    background-color: #F2F2F2;
+}
+
+section {
+    margin-bottom: 0px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+/* Header styles */
+header {
+    background-color: #6DDAF2;
+    color: #fff;
+    padding: 10px 0;
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Footer styles */
+footer {
+    background-color: #6DDAF2;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}

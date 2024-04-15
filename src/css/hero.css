@@ -1,0 +1,44 @@
+/* Hero (About) section styles */
+#about {
+    position: relative;
+    padding: 100px 0;
+    color: #fff;
+    text-align: center;
+    background-image: url('james.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: space;
+    height: 60vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Gradient overlay */
+#about::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(109,218,242,0.05), rgba(72,190,218,0.5)); /* Adjust gradient colors and transparency as needed */
+}
+
+/* Text styles */
+#about .about-content {
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: 1;
+}
+
+#about h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.2em;
+}
